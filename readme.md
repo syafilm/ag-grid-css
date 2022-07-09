@@ -13,4 +13,4 @@
 
 ### Documentaiton
 1) We highly use AG-GRID table component from [here](https://www.ag-grid.com/)
-2) Styling documentation of ag-grid component can ve found [here](https://www.ag-grid.com/javascript-data-grid/themes/)
+2) Styling documentation of ag-grid component can be found [here](https://www.ag-grid.com/javascript-data-grid/themes/)
