@@ -9,7 +9,7 @@
 1) In order to run this project locally you need to have installed nodejs after that install all node modules by running `npm install` and then run  `npm run start` and navigate to [http://127.0.0.1:8080](http://127.0.0.1:8080). You will see a table there.
 
 ### Help
-1) In order to apply new CSS code you should edit `public/static/css/ag-grid-custom-theme.css` this is bean included in `public/index.html` you may also want to edit this file by adding new HTML elements around the table element which is loaded inside root element.
+1) In order to apply new CSS code you should edit `public/static/css/ag-grid-custom-theme.css` this is included in `public/index.html` you may also want to edit this file by adding new HTML elements around the table element which is loaded inside root element.
 
 ### Documentaiton
 1) We highly use AG-GRID table component from [here](https://www.ag-grid.com/)
