@@ -19,3 +19,100 @@ MORE DOCUMENTATION HERE : https://www.ag-grid.com/javascript-data-grid/themes/
 .ag-theme-alpine .ag-header-cell {
     font-size: 18px;
 }
+.ag-theme-alpine .ag-react-container{
+    padding: 1rem;
+    text-align: left;
+    width: 100%;
+}
+.ag-theme-alpine .ag-react-container > div{
+    text-align: left !important;
+    width: 100%;
+}
+.ag-theme-alpine .ag-react-container > div > span > dl{
+    padding: 0px !important;
+    display: flex;
+    flex-direction: column;
+}
+.ag-theme-alpine .ag-react-container > div > span > dl > dt{
+    font-weight: normal;
+    padding-bottom: 10px !important;
+    display: flex;
+    align-items: center;
+}
+.ag-theme-alpine .ag-react-container > div > span > dl > dt > b{
+    font-weight: normal;
+    margin-left: auto;
+}
+.ag-theme-alpine .ag-react-container h2{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.ag-theme-alpine .ag-react-container h2 > i{
+    font-size: 1.25rem;
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
+.ag-theme-alpine .ag-row-even .ag-cell-value > span,
+.ag-theme-alpine .ag-row-odd .ag-cell-value > span{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.ag-theme-alpine .ag-row-even .ag-cell-value > span button,
+.ag-theme-alpine .ag-row-odd .ag-cell-value > span button{
+    margin-left: auto;
+}
+
+.ag-theme-alpine{
+    height: 100vh !important;
+}
+
+.ag-theme-alpine .ag-filter-toolpanel-header .ag-group-title{
+    color: #181d1f;
+}
+
+.ag-theme-alpine .ag-filter-toolpanel-header .ag-header-cell-text{
+    color: #181d1f;
+}
+
+.ag-theme-alpine .ag-filter-toolpanel-header .ag-icon{
+    color: #181d1f;
+}
+
+.ag-theme-alpine .ag-status-bar-right{
+    align-items: center;
+}
+
+.ag-theme-alpine .ag-status-bar-right{
+    color: #181d1f;
+}
+
+.ag-theme-alpine .ag-status-bar-right .component{
+    margin-right: 0.5rem;
+}
+
+.ag-theme-alpine .ag-status-bar-right .ag-status-name-value input{
+    margin-left: 0.5rem;
+}
+
+.ag-theme-alpine .ag-header{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+.ag-theme-alpine input[class^=ag-][type=text]{
+    border: 0px;
+}
+
+.ag-theme-alpine .ag-header-row:not(:first-child) .ag-header-cell{
+    border-top: 1px solid #383839;
+    border-top-color: #383839;
+}
+
+.ag-theme-alpine .ag-row-odd {
+    background: #f2f2f2;
+}
